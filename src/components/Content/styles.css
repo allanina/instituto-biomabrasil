@@ -1,7 +1,7 @@
 .home__content-title{
   color: #007aff;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 6%;
   margin-bottom: 2%;
 }
 
@@ -10,6 +10,13 @@
   text-align: justify;
   margin-right: 10%;
   margin-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }  
+
+.home__content-title-mangue{
+  color: #007aff;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 

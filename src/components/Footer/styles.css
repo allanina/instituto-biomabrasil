@@ -3,7 +3,7 @@ footer{
 	height: 20%;
 	position: baseline;
   bottom: 0;
-  background-color: #007aff;
+  background-color: #0c325a;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -35,5 +35,14 @@ footer{
 }
 
 .footer__menu-link:hover{
-  color: #0c325a;
+  color: #007aff;
+}
+
+.footer__social__media{
+  margin-left: 20%;
+}
+
+.footer__social__media-img{
+  width: 30%;
+  height: 30%;
 }

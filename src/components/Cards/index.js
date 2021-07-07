@@ -8,7 +8,7 @@ const Cards = () => {
 
         <img className="card__content-img"src={Img} alt ="imagem de um carangueijo" />
 
-        <p className="card__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis tincidunt id aliquet risus. Ante in nibh mauris cursus mattis molestie a. Platea dictumst vestibulum rhoncus est pellentesque elit. Lacus sed turpis tincidunt id aliquet risus. Sed sed risus pretium quam vulputate dignissim suspendisse in est. </p>
+        <p className="card__content-text">O Instituto BiomaBrasil foi estabelecido sobre a premissa de que a educação constitui o combustível para a mudança. O desenvolvimento de suas atividades tem demonstrado a potencialidade necessária à conservação das zonas úmidas quando mentes abertas estão decididas a investir nas necessidades sociais, numa atmosfera de respeito e trabalho em equipe, imbuídas de responsabilidade social. </p>
 
 
 
