@@ -1,0 +1,15 @@
+.home__content-title{
+  color: #007aff;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.home__content > p{
+  color: #2e2e2e;
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}  
+

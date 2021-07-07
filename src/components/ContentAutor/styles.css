@@ -1,0 +1,23 @@
+.autor__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.autor__content-title{
+  padding: 8%;
+  color: #007aff;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.autor__content-text{
+  color: #2e2e2e;
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}  
+
