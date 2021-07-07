@@ -5,34 +5,22 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return(
 
-    <footer className="footer__menu">
+    <footer>
       
-      <div className="footer__div">
-
         <div className="footer__logo">
 
           <img className="footer__logo-img" src={Img} alt="logotipo do Instituto BiomaBrasil" />
         </div>
         
 
-          <ul>
+    <div className="footer__links">
+          <p><Link className="footer__menu-link" to="/equipe">Equipe</Link> </p>
 
-            <li>
-              <Link className="footer__menu-link" to="/equipe">Equipe</Link>
 
-            </li>
+          <p><Link className="footer__menu-link" to="/autora">Autora</Link></p>
+    </div>
 
-            <li>
-              <Link className="footer__menu-link" to="/autora">Autora</Link>
-            </li>
-
-          </ul>
-
-        
-
-      </div>
-
-    </footer>
+  </footer>
   )
 }
 

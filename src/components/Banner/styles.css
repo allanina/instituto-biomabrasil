@@ -6,6 +6,11 @@
   justify-content: space-between;
   padding: 5%;
 }
+
+.home__content__text{
+  margin-left: 2%;
+}
+
 .home__content__text > h1, p{
   padding: 2%;
   color: #ffff;
@@ -16,8 +21,9 @@
 }
 
 .home__content__image > img { 
-  width: 18em;
-  height: 18em;
+  width: 40%;
+  height: 40%;
+  margin-left: 50%;
 }
 
 .button__home{
@@ -35,4 +41,12 @@
     border-radius: 50px;
     border: #ffff solid 1px;
     
+    transition-property: background-color, border;
+    transition-duration: 1s;
+}
+
+.button__home:hover {
+  color: #ffff;
+  background-color: #0c325a;
+  border: #0c325a;
 }
