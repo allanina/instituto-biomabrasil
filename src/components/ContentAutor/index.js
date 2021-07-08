@@ -1,5 +1,8 @@
 import "./styles.css"
 import Img from "../../assets/autor-profile.jpg"
+import ImgLinkedin from "../../assets/icon-linkedin-blue.png"
+import ImgGithub from "../../assets/icon-github-blue.png"
+import ImgInsta from "../../assets/icon-instagram-blue.png"
 
 const ContentAutor = () =>{
   return(
@@ -8,13 +11,27 @@ const ContentAutor = () =>{
 
       <img className="card__content-img"src={Img} alt ="imagem da autora" />
 
-      <p className="autor__content-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Sed velit dignissim sodales ut eu sem integer. Augue interdum velit euismod in pellentesque massa placerat duis. Amet consectetur adipiscing elit ut aliquam purus sit. Mi eget mauris pharetra et. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Etiam sit amet nisl purus. Mattis molestie a iaculis at erat pellentesque adipiscing. Neque laoreet suspendisse interdum consectetur libero. Ac odio tempor orci dapibus. Et tortor at risus viverra adipiscing.
-        </p>
+      <h2 className="autor__content-name">Allana Evellyn</h2>
 
-        <p className="autor__content-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Sed velit dignissim sodales ut eu sem integer. Augue interdum velit euismod in pellentesque massa placerat duis. Amet consectetur adipiscing elit ut aliquam purus sit. Mi eget mauris pharetra et. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Etiam sit amet nisl purus. Mattis molestie a iaculis at erat pellentesque adipiscing. Neque laoreet suspendisse interdum consectetur libero. Ac odio tempor orci dapibus. Et tortor at risus viverra adipiscing.
-        </p>
+      <p className="autor__content-text">
+      Allana é bióloga e especialista em Gestão Ambiental, mas atualmente é estudante de Análise e Desenvolvimento de Sistemas no IFPE. Se formou na turma 10 de Desenvolvimento Front-end da Reprograma e está estudando para ser uma Desenvolvedora Front-end. Nas horas vagas, adora mimar seus 12 gatos e 2 cachorros, ler, asssistir filmes, descobrir músicas novas e passar raiva no low elo do Valorant.
+      </p>
+
+      <div className="content__social__media">
+
+        <a href="https://www.instagram.com/allanina__/" target="_blank" rel="noreferrer">
+          <img className="content__social__media-img" src={ImgInsta} alt="logotipo instagram na cor branca" /> 
+        </a>
+
+        <a href="https://github.com/allanina" target="_blank" rel="noreferrer">
+          <img className="content__social__media-img" src={ImgGithub} alt="logotipo facebook na cor branca" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/allanaevellyn/" target="_blank" rel="noreferrer">
+          <img className="content__social__media-img" src={ImgLinkedin} alt="logotipo facebook na cor branca" />
+        </a>
+
+      </div>
 
     </article>
   )

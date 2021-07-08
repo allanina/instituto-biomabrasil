@@ -1,7 +1,7 @@
 footer{
   width: 100%;
 	height: 20%;
-	position: baseline;
+	/*position: absolute;*/
   bottom: 0;
   background-color: #0c325a;
   display: flex;
@@ -45,4 +45,11 @@ footer{
 .footer__social__media-img{
   width: 30%;
   height: 30%;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.footer__social__media-img:hover{
+  background-color: #007aff;
 }

@@ -2,22 +2,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
   justify-content: center;
 }
 
-.autor__content-title{
-  padding: 8%;
+.autor__content-title {
+  padding: 5%;
   color: #007aff;
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 2%;
+}
+
+.autor__content-name{
+  color: #007aff;
+  margin: 2% 20% 0 20%;
 }
 
 .autor__content-text{
   color: #2e2e2e;
   text-align: justify;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 5%;
+  margin: 2% 30% 0 30%;
 }  
+
+.content__social__media{
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content__social__media-img{
+  width: 60%;
+  height: 60%;
+  justify-content: center;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.content__social__media-img:hover{
+  background-color: #cab8f5;
+}
 

@@ -5,7 +5,7 @@ import CardsMangue from "../CardsMangue"
 
 const Content = () => {
   return(
-    <section className="home__content">
+    <section id="content" className="home__content">
       <h1 className="home__content-title"> Instituto BiomaBrasil </h1>
       
       <Cards />
