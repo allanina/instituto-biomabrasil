@@ -7,7 +7,7 @@ import ImgInsta from "../../assets/icon-instagram-blue.png"
 const ContentAutor = () =>{
   return(
     <article className="autor__content">
-      <h1 className="autor__content-title">Autora</h1>
+      <h1 className="content__title">Autora</h1>
 
       <img className="card__content-img"src={Img} alt ="imagem da autora" />
 

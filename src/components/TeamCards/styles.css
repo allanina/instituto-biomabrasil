@@ -1,0 +1,16 @@
+.members_cards{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+
+.members_name{
+  color: blue;
+}
+.members_bio{
+  color: blueviolet;
+}
+
+.members_instagram{
+  background-color: brown;
+}

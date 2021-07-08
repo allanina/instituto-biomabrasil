@@ -1,12 +1,13 @@
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
+import TeamCards from "../../components/TeamCards"
 
 
 const Team = () => {
   return(
     <>
       <Nav />
-      <p>AQUI É A PÁGINA DO TIME</p>
+      <TeamCards />
       <Footer />
     </>
   )
