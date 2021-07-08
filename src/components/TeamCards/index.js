@@ -23,7 +23,7 @@ return(
       {teamMember.map(members => {
         return <li className="member__card">
           <img id="image__member" className="card__content-img" src={members.profile} alt={members.name}/>
-          <p className="members_name"> Nome: {members.name}</p>
+          <p className="members_name">{members.name}</p>
           <p className="members_bio">{members.bio}</p>
           <a href={members.instagram} className="members_instagram">Instagram</a>
           </li>
