@@ -1,16 +1,51 @@
+.team__cards-title{
+  color: #007aff;
+  text-align: center;
+  margin-top: 10%;
+}
+
 .members_cards{
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
+#image__member{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.team__members{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20% 2% 20%;
+  list-style: none;
+  padding: 5%;
+}
 
 .members_name{
-  color: blue;
+  color: #ffff;
+  background-color: #0c325a;
 }
 .members_bio{
-  color: blueviolet;
+  color: #0c325a;
+  text-align: justify;
 }
 
 .members_instagram{
-  background-color: brown;
+  text-decoration: none;
+  color: #ffff;
+  background-color: #007aff;
+  padding: 1%;
+  border-radius: 50px;
+  margin-bottom: 2%;
+  margin-left: 2%;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.members_instagram:hover{
+  color:#ffff;
+  background-color: #0c325a;
 }

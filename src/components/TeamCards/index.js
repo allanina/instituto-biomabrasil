@@ -2,8 +2,7 @@ import {useState, useEffect} from 'react'
 import './styles.css'
 
 
-{/*creates the team cards with info from the API*/}
-const TeamCards = () =>{
+  const TeamCards = () =>{
   const [teamMember, setTeamMember] = useState([])
 
 useEffect(() =>{
@@ -16,17 +15,17 @@ return(
   <article className="members_cards">
 
     {/* the card itself */}
-    <h1 className="content__title">Equipe do Instituto BiomaBrasil</h1>
+    <h1 className="team__cards-title">Equipe do Instituto BiomaBrasil</h1>
 
   
-    <ul className="team__member">
+    <ul className="team__members">
 
       {teamMember.map(members => {
-        return <li className="person">
-          <img className="card__content-img" src={members.profile} alt={members.name}/>
+        return <li className="member__card">
+          <img id="image__member" className="card__content-img" src={members.profile} alt={members.name}/>
           <p className="members_name"> Nome: {members.name}</p>
           <p className="members_bio">{members.bio}</p>
-          <a className="members_instagram">{members.instagram}</a>
+          <a href={members.instagram} className="members_instagram">Instagram</a>
           </li>
     })}
   
