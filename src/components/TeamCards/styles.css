@@ -32,6 +32,7 @@
   text-decoration: none;
   color: #ffff;
   background-color: #007aff;
+  box-shadow: 0 2px 3px rgba(78, 78, 78, 0.5);
   padding: 1%;
   border-radius: 50px;
   margin-bottom: 2%;
