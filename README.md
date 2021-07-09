@@ -20,6 +20,7 @@ O Intituto BiomaBrasil é uma ONG que visa a conservação do meio ambiente, sus
 | `react-router-dom` | Biblioteca para criação de rotas no React|
 <br>
 > Além disso, noo projeto realizei o consumo de um API externa utilizando o My Json Server (https://my-json-server.typicode.com/)
+<br>
 > O arquivo json pode ser visualizado neste link https://my-json-server.typicode.com/allanina/biomabrasil/db 
 <br>
 <br>
