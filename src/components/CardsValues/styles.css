@@ -23,7 +23,6 @@
   padding: 15px 10px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
   transition: 2s ease-in-out;
 
   transition-property: background-color;

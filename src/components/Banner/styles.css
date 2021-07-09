@@ -36,6 +36,7 @@
     padding: 3%;
     border-radius: 50px;
     border: #ffff solid 1.5px;
+    box-shadow: 0 3px 10px rgba(78, 78, 78, 0.5);
 
     transition-property: background-color, border;
     transition-duration: 1s;
