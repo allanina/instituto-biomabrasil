@@ -34,7 +34,7 @@ const Content = () => {
       </p>
 
       <div className="button__apoie">
-      <a href="https://euapoio.com.br/instituicao/apoie-o-oceano" target="_blank" rel="noreferrer" className="button__apoie-instituto">Apoie o Intituto BiomaBrasil</a>
+      <a href="https://euapoio.com.br/instituicao/apoie-o-oceano" target="_blank" rel="noreferrer" className="button__apoie-instituto">Apoie o Instituto BiomaBrasil</a>
       </div>
       
     </section>
