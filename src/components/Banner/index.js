@@ -6,9 +6,9 @@ import "./styles.css"
 const Banner = () => {
     return(
 
-      <div className="div__content__banner">
+      <div id="div__content__banner" className="div__content__banner">
 
-        <div className="home__content__text">
+        <div className="banner__content__text">
 
           <h1>Para o Instituto BiomaBrasil, a educação é o combustível para a mudança</h1>
 
@@ -18,9 +18,9 @@ const Banner = () => {
 
         </div>
 
-        <div className="home__content__image">
+        <div className="banner__content__image">
 
-          <img src={Img} alt="logotipo do Instituto BiomaBrasil" />
+          <img className="banner__image" src={Img} alt="logotipo do Instituto BiomaBrasil" />
           
         </div>
 

@@ -7,21 +7,21 @@
   padding: 5%;
 }
 
-.home__content__text{
+.banner__content__text{
   margin-left: 2%;
 }
 
-.home__content__text > h1, p{
+.banner__content__text > h1, p{
   padding: 2%;
   color: #ffff;
 }
 
-.home__content__text > p{
+.banner__content__text > p{
   font-size: 20px;
   margin-bottom: 5%;
 }
 
-.home__content__image > img { 
+.banner__content__image > img { 
   width: 40%;
   height: 40%;
   margin-left: 50%;
@@ -46,3 +46,4 @@
   background-color: #0c325a;
   border: #0c325a;
 }
+
