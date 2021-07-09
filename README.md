@@ -94,4 +94,5 @@ O Intituto BiomaBrasil é uma ONG que visa a conservação do meio ambiente, sus
    
 
 ```
-
+## Agradecimentos
+Gostaria de agradecer a todas a equipe da reprograma, todas as professoras, monitoras, alunas... Todo mundo! Sem elas, eu nunca teria conseguido fazer as coisas que eu eu consegui fazer, e elas são minha maior fonte de inspiração para seguir programando. 💜
