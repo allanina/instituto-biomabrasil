@@ -14,7 +14,6 @@ O Intituto BiomaBrasil é uma ONG que visa a conservação do meio ambiente, sus
 | --- | --- |
 | `React` | Biblioteca javascript |
 | `Hooks` | APIs do React |
-| `Axios` | Biblioteca para consumir API|
 | `npm` | Gerenciador de pacotes|
 | `Netlify` | Servidor para deploy|
 | `react-router-dom` | Biblioteca para criação de rotas no React|
