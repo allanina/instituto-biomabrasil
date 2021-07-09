@@ -12,7 +12,7 @@ const Banner = () => {
 
           <h1>Para o Instituto BiomaBrasil, a educação é o combustível para a mudança</h1>
 
-          <p>Conservação, educação ambiental e igualdade.</p>
+          <p>Educação ambiental, conservação,  e equidade.</p>
           
           <a href="#content" className="button__home">Saiba mais</a>
 

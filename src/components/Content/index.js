@@ -1,6 +1,7 @@
 import "./styles.css"
 import Cards from "../Cards"
 import CardsMangue from "../CardsMangue"
+import CardsValues from "../CardsValues"
 
 
 const Content = () => {
@@ -17,6 +18,8 @@ const Content = () => {
       <p>
         O Instituto participa ativamente do desenvolvimento do Projeto "Guia Didático Os Maravilhosos Manguezais do Brasil", dando formação para educadores das mais diversas áreas do conhecimento, contando com o apoio de diversas instituições, como a Universidade de Pernambuco (UPE), a ONG SOS Mata Atlântica, a Fundação Toyota do Brasil e a Área de Proteção Ambiental (APA) Costa dos Corais.
       </p>
+
+      <CardsValues />
 
       <h1 className="home__content-title-mangue"> Guia Didático "Os maravilhosos manguezais do Brasil" </h1>
 
