@@ -51,6 +51,9 @@ O Intituto BiomaBrasil é uma ONG que visa a conservação do meio ambiente, sus
    |         |- 📁 CardsMangue 
    |                |- 📄 index.js
    |                |- 📄 styles.css
+   |         |- 📁 CardsValues
+   |                |- 📄 index.js
+   |                |- 📄 styles.css
    |         |- 📁 Content 
    |                |- 📄 index.js
    |                |- 📄 styles.css

@@ -20,3 +20,26 @@
   margin-bottom: 2%;
 }
 
+.button__apoie{
+  display: flex;
+  justify-content: center;
+}
+
+.button__apoie-instituto{
+  text-align: center;
+  background-color: #007aff;
+  text-decoration: none;
+  color: #ffff;
+  padding: 2%;
+  border-radius: 50px;
+  margin-bottom: 2%;
+
+  transition-property: background-color, border;
+  transition-duration: 1s;
+}
+
+.button__apoie-instituto:hover {
+color: #ffff;
+background-color: #0c325a;
+border: #0c325a;
+}

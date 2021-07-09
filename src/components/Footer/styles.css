@@ -53,3 +53,11 @@ footer{
 .footer__social__media-img:hover{
   background-color: #007aff;
 }
+
+.footer__credits{
+  background-color: #0c325a;
+  text-align: center;
+  text-decoration: none;
+  color: #2564a8;
+  padding: 10px;
+}

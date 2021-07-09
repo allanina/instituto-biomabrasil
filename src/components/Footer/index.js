@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return(
-
+  <>
     <footer>
       
         <div className="footer__logo">
@@ -36,8 +36,16 @@ const Footer = () => {
           </a>
 
         </div>
+  
+      
       
   </footer>
+  
+  <div className="footer__credits">
+    <a href="https://github.com/allanina" target="_blank" rel="noreferrer" className="footer__credits">Desenvolvido por © Allana Evellyn </a>
+  </div>
+  
+  </>
   )
 }
 
